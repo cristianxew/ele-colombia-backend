@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/hablar-tareas",
+      "handler": "hablar-tareas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hablar-tareas/count",
+      "handler": "hablar-tareas.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hablar-tareas/:id",
+      "handler": "hablar-tareas.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hablar-tareas",
+      "handler": "hablar-tareas.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/hablar-tareas/:id",
+      "handler": "hablar-tareas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/hablar-tareas/:id",
+      "handler": "hablar-tareas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

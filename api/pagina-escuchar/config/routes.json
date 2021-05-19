@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pagina-escuchar",
+      "handler": "pagina-escuchar.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pagina-escuchar",
+      "handler": "pagina-escuchar.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pagina-escuchar",
+      "handler": "pagina-escuchar.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

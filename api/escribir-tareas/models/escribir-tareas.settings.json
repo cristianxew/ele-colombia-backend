@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "escribir_tareas",
+  "info": {
+    "name": "escribir-tareas",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "evidencia": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "escribir_tareas"
+    },
+    "comentario": {
+      "type": "text"
+    }
+  }
+}

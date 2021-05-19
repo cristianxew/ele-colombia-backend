@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/escribir-tareas",
+      "handler": "escribir-tareas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/escribir-tareas/count",
+      "handler": "escribir-tareas.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/escribir-tareas/:id",
+      "handler": "escribir-tareas.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/escribir-tareas",
+      "handler": "escribir-tareas.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/escribir-tareas/:id",
+      "handler": "escribir-tareas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/escribir-tareas/:id",
+      "handler": "escribir-tareas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

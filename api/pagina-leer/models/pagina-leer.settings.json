@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "pagina_leers",
+  "info": {
+    "name": "pagina-leer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "imagenes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "imagenes.carrusel"
+    }
+  }
+}

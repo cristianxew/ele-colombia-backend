@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "leer_tareas",
+  "info": {
+    "name": "leer-tareas"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "evidencia": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "leer_tareas"
+    },
+    "comentario": {
+      "type": "text"
+    }
+  }
+}

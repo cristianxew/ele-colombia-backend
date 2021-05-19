@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_audio_audios",
+  "info": {
+    "name": "audios",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "audio": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

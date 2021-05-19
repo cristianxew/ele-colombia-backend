@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "pagina_escuchars",
+  "info": {
+    "name": "pagina-escuchar",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "video": {
+      "type": "component",
+      "repeatable": true,
+      "component": "videos.video"
+    },
+    "audio": {
+      "type": "component",
+      "repeatable": true,
+      "component": "audio.audios"
+    }
+  }
+}

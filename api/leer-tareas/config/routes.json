@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/leer-tareas",
+      "handler": "leer-tareas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/leer-tareas/count",
+      "handler": "leer-tareas.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/leer-tareas/:id",
+      "handler": "leer-tareas.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/leer-tareas",
+      "handler": "leer-tareas.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/leer-tareas/:id",
+      "handler": "leer-tareas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/leer-tareas/:id",
+      "handler": "leer-tareas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

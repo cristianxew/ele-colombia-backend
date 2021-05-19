@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hablar_tareas",
+  "info": {
+    "name": "hablar-tareas",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "comentario": {
+      "type": "text"
+    },
+    "refranes": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "hablar_tareas"
+    }
+  }
+}

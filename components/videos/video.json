@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_videos_videos",
+  "info": {
+    "name": "video",
+    "icon": "chalkboard"
+  },
+  "options": {},
+  "attributes": {
+    "video": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

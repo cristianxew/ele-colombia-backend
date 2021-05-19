@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pagina-leer",
+      "handler": "pagina-leer.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pagina-leer",
+      "handler": "pagina-leer.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pagina-leer",
+      "handler": "pagina-leer.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
