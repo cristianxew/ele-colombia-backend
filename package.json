@@ -13,6 +13,8 @@
   "dependencies": {
     "get-audio-duration": "^2.0.3",
     "knex": "<0.20.0",
+    "pg": "^8.6.0",
+    "pg-connection-string": "^2.5.0",
     "sqlite3": "latest",
     "strapi": "3.3.2",
     "strapi-admin": "3.3.2",
