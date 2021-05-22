@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_contenido_sesion2s",
+  "info": {
+    "name": "sesion2",
+    "icon": "arrows-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tarea": {
+      "type": "string"
+    },
+    "texto": {
+      "type": "text"
+    },
+    "actividades": {
+      "type": "string"
+    },
+    "tareas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contenido.lista-simple"
+    },
+    "imagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "objetivos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contenido.lista-simple"
+    },
+    "objetivo": {
+      "type": "string"
+    },
+    "imagen2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "titulo": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_contenido_significados_refranes",
+  "info": {
+    "name": "significadosRefranes",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "significado": {
+      "type": "string",
+      "required": true
+    },
+    "refran": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

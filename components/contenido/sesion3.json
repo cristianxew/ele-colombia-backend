@@ -1,0 +1,57 @@
+{
+  "collectionName": "components_contenido_sesion3s",
+  "info": {
+    "name": "sesion3",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "actividades": {
+      "type": "string"
+    },
+    "texto1": {
+      "type": "text"
+    },
+    "texto2": {
+      "type": "text"
+    },
+    "tareas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contenido.lista-simple"
+    },
+    "imagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "objetivos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contenido.lista-simple"
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "objetivo": {
+      "type": "string"
+    },
+    "imagen2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

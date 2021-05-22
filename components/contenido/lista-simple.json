@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_contenido_lista_simples",
+  "info": {
+    "name": "listaSimple",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "texto": {
+      "type": "string"
+    }
+  }
+}

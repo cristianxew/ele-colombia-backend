@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pagina-guia",
+      "handler": "pagina-guia.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pagina-guia",
+      "handler": "pagina-guia.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pagina-guia",
+      "handler": "pagina-guia.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

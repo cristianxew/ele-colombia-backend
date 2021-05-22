@@ -11,15 +11,28 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "video": {
+    "videos": {
       "type": "component",
       "repeatable": true,
       "component": "videos.video"
     },
-    "audio": {
+    "audios": {
       "type": "component",
       "repeatable": true,
       "component": "audio.audios"
+    },
+    "seccion1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contenido.seccion1"
+    },
+    "tituloVideos": {
+      "type": "string",
+      "required": true
+    },
+    "tituloAudios": {
+      "type": "string",
+      "required": true
     }
   }
 }

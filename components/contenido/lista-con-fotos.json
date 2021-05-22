@@ -1,23 +1,22 @@
 {
-  "collectionName": "components_audio_audios",
+  "collectionName": "components_contenido_lista_con_fotos",
   "info": {
-    "name": "audios",
-    "icon": "apple-alt",
-    "description": ""
+    "name": "listaConFotos",
+    "icon": "align-right"
   },
   "options": {},
   "attributes": {
-    "nombre": {
+    "texto": {
       "type": "string"
     },
-    "audio": {
+    "imagen": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "files"
+        "images"
       ],
       "plugin": "upload",
-      "required": false
+      "required": true
     }
   }
 }

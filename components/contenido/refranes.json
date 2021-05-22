@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_contenido_refranes",
+  "info": {
+    "name": "refranes",
+    "icon": "check-circle"
+  },
+  "options": {},
+  "attributes": {
+    "comienzo": {
+      "type": "string",
+      "required": true
+    },
+    "final": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "collectionName": "components_contenido_presentacions",
+  "info": {
+    "name": "presentacion",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "texto1": {
+      "type": "text"
+    },
+    "texto2": {
+      "type": "text"
+    },
+    "texto3": {
+      "type": "text"
+    },
+    "imagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "subtitulo1": {
+      "type": "string"
+    },
+    "parrafo1": {
+      "type": "text"
+    },
+    "titulo2": {
+      "type": "string"
+    },
+    "presentacion": {
+      "type": "string"
+    },
+    "parrafo2": {
+      "type": "text"
+    },
+    "titulo3": {
+      "type": "string"
+    },
+    "parrafo3": {
+      "type": "text"
+    },
+    "imagen2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

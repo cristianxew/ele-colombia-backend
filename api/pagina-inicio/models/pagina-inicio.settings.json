@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "pagina_inicios",
   "info": {
-    "name": "pagina-inicio"
+    "name": "pagina-inicio",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -10,16 +11,20 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "video": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
+    "seccion1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contenido.seccion1"
+    },
+    "seccion2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contenido.seccion2"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contenido.footer"
     }
   }
 }

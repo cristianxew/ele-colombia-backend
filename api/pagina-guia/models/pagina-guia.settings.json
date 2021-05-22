@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "pagina_guias",
+  "info": {
+    "name": "pagina-guia",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tituloPrincipal": {
+      "type": "string",
+      "required": true
+    },
+    "imagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "seccionContenido": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contenido.seccion-introduccion"
+    },
+    "seccionIntro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contenido.seccion-intro"
+    },
+    "seccionHabilidades": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contenido.seccion-habilidades"
+    },
+    "tituloHabilidades": {
+      "type": "string"
+    },
+    "sesion1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contenido.sesiones"
+    },
+    "sesion2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contenido.sesion2"
+    },
+    "sesion3": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contenido.sesion3"
+    },
+    "seccionProyectoFinal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contenido.seccion-proyecto-final"
+    }
+  }
+}

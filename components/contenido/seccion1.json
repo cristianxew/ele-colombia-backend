@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_contenido_seccion1s",
+  "info": {
+    "name": "seccion1",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "texto": {
+      "type": "text",
+      "required": true
+    },
+    "imagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

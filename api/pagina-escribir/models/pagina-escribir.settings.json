@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "pagina_escribirs",
+  "info": {
+    "name": "pagina-escribir"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "imagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "refranes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contenido.refranes"
+    },
+    "texto": {
+      "type": "text"
+    },
+    "descripcionEnviarEvidencia": {
+      "type": "string"
+    }
+  }
+}

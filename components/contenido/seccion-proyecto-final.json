@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_contenido_seccion_proyecto_finals",
+  "info": {
+    "name": "seccionProyectoFinal",
+    "icon": "binoculars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "parrafo1": {
+      "type": "text"
+    },
+    "parrafo2": {
+      "type": "text"
+    },
+    "tarea": {
+      "type": "string"
+    },
+    "descTarea": {
+      "type": "string"
+    },
+    "preguntas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contenido.preguntas"
+    },
+    "imagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "imagen2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

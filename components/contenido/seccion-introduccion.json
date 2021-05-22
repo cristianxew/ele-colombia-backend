@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_contenido_seccion_introduccions",
+  "info": {
+    "name": "seccionIntroduccion",
+    "icon": "cheese"
+  },
+  "options": {},
+  "attributes": {
+    "contenido": {
+      "type": "string",
+      "required": true
+    },
+    "introduccion": {
+      "type": "string",
+      "required": true
+    },
+    "listaConFotos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contenido.lista-con-fotos"
+    },
+    "imagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

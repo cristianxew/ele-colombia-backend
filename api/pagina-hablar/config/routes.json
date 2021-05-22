@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pagina-hablar",
+      "handler": "pagina-hablar.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pagina-hablar",
+      "handler": "pagina-hablar.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pagina-hablar",
+      "handler": "pagina-hablar.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

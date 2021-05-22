@@ -15,6 +15,41 @@
       "type": "component",
       "repeatable": true,
       "component": "imagenes.carrusel"
+    },
+    "tituloPrincipal": {
+      "type": "string",
+      "required": true
+    },
+    "imagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "significadosRefranes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contenido.significados-refranes"
+    },
+    "tituloImagenes": {
+      "type": "string",
+      "required": true
+    },
+    "tituloSignificados": {
+      "type": "string",
+      "required": true
+    },
+    "imagenesSituaciones": {
+      "type": "component",
+      "repeatable": true,
+      "component": "imagenes.carrusel"
+    },
+    "descripcionEnviarEvidencia": {
+      "type": "string",
+      "required": true
     }
   }
 }

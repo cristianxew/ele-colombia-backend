@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_contenido_preguntas",
+  "info": {
+    "name": "preguntas",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "pregunta": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

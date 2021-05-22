@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_contenido_seccion_habilidades",
+  "info": {
+    "name": "seccionHabilidades",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "texto": {
+      "type": "string"
+    },
+    "imagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_contenido_footers",
+  "info": {
+    "name": "footer",
+    "icon": "basketball-ball"
+  },
+  "options": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "profesion": {
+      "type": "string",
+      "required": true
+    },
+    "especializacion": {
+      "type": "string",
+      "required": true
+    },
+    "correo": {
+      "type": "email"
+    },
+    "foto": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

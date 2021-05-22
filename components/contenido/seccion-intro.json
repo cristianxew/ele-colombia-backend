@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_contenido_seccion_intros",
+  "info": {
+    "name": "seccionIntro",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "parrafo1": {
+      "type": "text"
+    },
+    "parrafo2": {
+      "type": "text"
+    },
+    "imagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "introduccion": {
+      "type": "string"
+    }
+  }
+}

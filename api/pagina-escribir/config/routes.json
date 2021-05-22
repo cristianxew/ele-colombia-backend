@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pagina-escribir",
+      "handler": "pagina-escribir.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pagina-escribir",
+      "handler": "pagina-escribir.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pagina-escribir",
+      "handler": "pagina-escribir.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
