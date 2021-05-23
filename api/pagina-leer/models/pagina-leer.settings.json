@@ -50,6 +50,21 @@
     "descripcionEnviarEvidencia": {
       "type": "string",
       "required": true
+    },
+    "descTareaCuestionario": {
+      "type": "text",
+      "required": true,
+      "default": "Descripción"
+    },
+    "nombreBotonCuestionario": {
+      "type": "string",
+      "default": "Abrir cuestionario",
+      "required": true
+    },
+    "enlaceCuestionario": {
+      "type": "string",
+      "default": "https://www.google.com",
+      "required": true
     }
   }
 }
